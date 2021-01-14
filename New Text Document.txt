@@ -1,0 +1,12 @@
+https://github.com/adafruit/Adafruit_Python_SSD1306
+
+
+https://github.com/HackerShackOfficial/Smart-Security-Camera
+
+
+install smtp for email usage
+Rpi.gpio
+ALSA utils
+Camera
+python-fingerprint
+Adafruit_Python_SSD1306

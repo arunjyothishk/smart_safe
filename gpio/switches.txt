@@ -1,0 +1,43 @@
+# author: Arun Jyothish k
+#smart safe
+
+#raspberry gpio importing for using it from python
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BOARD)
+
+#matrix switch in
+GPIO.setup(11,GPIO.OUT)
+GPIO.setup(13,GPIO.OUT)
+GPIO.setup(15,GPIO.OUT)
+
+#matrix switch OUT
+GPIO.setup(37,GPIO.IN)
+GPIO.setup(31,GPIO.IN)
+GPIO.setup(33,GPIO.IN)
+GPIO.setup(35,GPIO.IN)
+
+#led pins
+GPIO.setup(36,GPIO.OUT)
+GPIO.setup(38,GPIO.OUT)
+GPIO.setup(40,GPIO.OUT)
+GPIO.setup(32,GPIO.OUT)
+
+while True:
+    GPIO.output(36,True)
+    time.sleep(1)
+    GPIO.output(36,False)
+    time.sleep(1)
+    GPIO.output(38,True)
+    time.sleep(1)
+    GPIO.output(38,False)
+    time.sleep(1)
+    GPIO.output(40,True)
+    time.sleep(1)
+    GPIO.output(40,False)
+    time.sleep(1)
+    GPIO.output(32,True)
+    time.sleep(1)
+    GPIO.output(32,False)
+    time.sleep(1)

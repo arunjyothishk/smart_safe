@@ -1,0 +1,10 @@
+"""
+ ============================================================================
+ Name        : ds.c
+ Author      : ARUN JYOTHISH  K
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ """
+print("helloworld")
